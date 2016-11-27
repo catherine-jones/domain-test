@@ -11,21 +11,21 @@ class HcardForm extends React.Component {
         <hr/>
         <div className="form-group row">
           <div className="col-sm-6">
-            <label for="givenName">Given Name</label>
+            <label htmlFor="givenName">Given Name</label>
             <input type="text" className="form-control" id="givenName"></input>
           </div>
           <div className="col-sm-6">
-            <label for="surname">Surname</label>
+            <label htmlFor="surname">Surname</label>
             <input type="text" className="form-control" id="surname"></input>
           </div>
         </div>
         <div className="form-group row">
           <div className="col-sm-6">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" className="form-control" id="email"></input>
           </div>
           <div className="col-sm-6">
-            <label for="phone">Phone</label>
+            <label htmlFor="phone">Phone</label>
             <input type="tel" className="form-control" id="phone"></input>
           </div>
         </div>
@@ -34,31 +34,31 @@ class HcardForm extends React.Component {
 
         <div className="form-group row">
           <div className="col-sm-6">
-            <label for="house-name">House Name or #</label>
+            <label htmlFor="house-name">House Name or #</label>
             <input type="text" className="form-control" id="house-name"></input>
           </div>
           <div className="col-sm-6">
-            <label for="street">Street</label>
+            <label htmlFor="street">Street</label>
             <input type="text" className="form-control" id="street"></input>
           </div>
         </div>
         <div className="form-group row">
           <div className="col-sm-6">
-            <label for="suburb">Suburb</label>
+            <label htmlFor="suburb">Suburb</label>
             <input type="text" className="form-control" id="suburb"></input>
           </div>
           <div className="col-sm-6">
-            <label for="state">State</label>
+            <label htmlFor="state">State</label>
             <input type="text" className="form-control" id="state"></input>
           </div>
         </div>
         <div className="form-group row">
           <div className="col-sm-6">
-            <label for="post-code">Post Code</label>
+            <label htmlFor="post-code">Post Code</label>
             <input type="text" className="form-control" id="post-code"></input>
           </div>
           <div className="col-sm-6">
-            <label for="country">Country</label>
+            <label htmlFor="country">Country</label>
             <input type="text" className="form-control" id="country"></input>
           </div>
         </div>
