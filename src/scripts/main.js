@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloForm from './HelloForm';
+import HcardForm from './HcardForm';
 
 
-ReactDOM.render(<HelloForm />, document.getElementById('example'));
+ReactDOM.render(<HcardForm/>, document.getElementById('form-container'));
