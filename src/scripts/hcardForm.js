@@ -4,15 +4,32 @@ import React from 'react';
 
 class HcardForm extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+
+  handleSubmit(event) {
+    console.log(this.state.value);
+    event.preventDefault();
+  }
+
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <h2>Personal Details</h2>
         <hr/>
         <div className="form-group row">
           <div className="col-sm-6">
             <label htmlFor="givenName">Given Name</label>
-            <input type="text" className="form-control" id="givenName"></input>
+            <input type="text" className="form-control" id="givenName"  value={this.state.value} onChange={this.handleChange}></input>
           </div>
           <div className="col-sm-6">
             <label htmlFor="surname">Surname</label>
