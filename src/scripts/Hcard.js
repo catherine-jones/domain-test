@@ -14,7 +14,7 @@ class Hcard extends React.Component {
             </div>
             <div className="col-sm-3 col-xs-4">
               <div className="photo">
-                <img src="./assets/images/avatar.png" alt="avatar" />
+                <img src="./images/avatar.png" alt="avatar" />
               </div>
             </div>
           </div>
