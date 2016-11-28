@@ -1,5 +1,10 @@
 body {
   font-family: 'Merriweather', serif;
+  font-size: 0.7rem;
+
+  @media (min-width: 768px){
+    font-size: 1rem;
+  }
 }
 
 h1 {
