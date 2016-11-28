@@ -1,0 +1,45 @@
+form {
+  label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-family: $sans-serif-font;
+    color: #2c3e50;
+  }
+
+  h2 {
+    color: #b5bdc0;
+    text-transform: uppercase;
+    font-family: $sans-serif-font;
+    font-size: 0.625rem;
+    margin-bottom: 0;
+  }
+
+  hr {
+    margin-top: 5px;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  .btn-primary input[type="file"] {
+    background-color: #627b8b;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    border: none;
+
+  &.avatar {
+    background-color: #627b8b;
+    border-bottom: 1px solid #3f515d;
+  }
+
+    &[type="submit"]{
+      background-color:#3498db;
+      border-bottom: 1px solid #2980b9;
+    }
+  }
+}

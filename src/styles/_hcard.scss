@@ -1,0 +1,41 @@
+.card {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid $border-colour;
+
+  .card-heading-group {
+    background-color: $vcard-heading-bg-colour;
+    color: white;
+    height: $card-heading-height;
+
+    h2 {
+      padding-top: 50px;
+    }
+  }
+
+  img {
+    width: $avatar-width;
+    height: auto;
+    float:right;
+    position: relative;
+    top: 10px;
+    border: 1px solid $border-colour;
+    border-bottom: 2px solid $border-colour;
+  }
+
+  .card-body {
+    padding: $card-padding;
+
+    .title {
+      color: $secondary-text-colour;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+
+    .underline {
+      display: block;
+      border-bottom: 1px solid $border-colour;
+      line-height: 2rem;
+    }
+  }
+}
