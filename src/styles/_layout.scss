@@ -19,6 +19,14 @@ h1 {
   }
 }
 
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: $sans-serif-font;
+  color: #95a5a6;
+  text-align: right;
+}
+
 @media (min-width: 992px){
   .row-eq-height {
     display: flex;
