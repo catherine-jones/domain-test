@@ -16,8 +16,10 @@ h1 {
   margin-left: 15px;
 }
 
-.row-eq-height {
-  display:         flex;
+@media (min-width: 992px){
+  .row-eq-height {
+    display: flex;
+  }
 }
 
 .vertically-center {
@@ -34,6 +36,11 @@ h1 {
 
 .card-column {
   background-color: #e1e4e7;
-  justify-content: center;
-  display: flex;
+  padding-bottom: 15px;
+
+  @media (min-width: 992px){
+    justify-content: center;
+    display: flex;
+    padding-bottom: 0;
+  }
 }
