@@ -22,7 +22,7 @@ class Hcard extends React.Component {
         <address className="card-body">
           <div className="underline row">
             <div className="col-sm-3 col-xs-4">
-              <span className="title">Email: </span>
+              <span className="title">Email:</span>
             </div>
             <div className="col-sm-9 col-xs-8">
               <span className="email">sam.fairfax@fairfax.com</span>
@@ -30,7 +30,7 @@ class Hcard extends React.Component {
           </div>
           <div className="underline row">
             <div className="col-sm-3 col-xs-4">
-              <span className="title">Phone: </span>
+              <span className="title">Phone:</span>
             </div>
             <div className="col-sm-9 col-xs-8">
               <span className="phone">0987656736</span>
@@ -53,14 +53,14 @@ class Hcard extends React.Component {
             </div>
             <div className="underline row">
               <div className="col-sm-3 col-xs-4">
-                <span className="title">Post Code: </span>
+                <span className="title">Post Code:</span>
               </div>
               <div className="col-sm-2 col-xs-8">
                 <span className="postal-code">2009</span>
               </div>
 
               <div className="col-sm-3 col-xs-4">
-                <span className="title">Country: </span>
+                <span className="title">Country:</span>
               </div>
               <div className="col-sm-4 col-xs-8">
                 <span className="country-name">Australia</span>
