@@ -3,6 +3,53 @@ import Hcard from './Hcard';
 import HcardForm from './HcardForm';
 
 class ComponentContainer extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChangeSurname(event){
+    this.setState({surname: event.target.value})
+  }
+
+  handleChangeGivenName(event){
+    this.setState({givenName: event.target.value})
+  }
+
+  handleChangeEmail(event){
+    this.setState({email: event.target.value})
+  }
+
+  handleChangePhone(event){
+    this.setState({phone: event.target.value})
+  }
+
+  handleChangeHouseName(event){
+    this.setState({houseName: event.target.value})
+  }
+
+  handleChangeStreet(event){
+    this.setState({street: event.target.value})
+  }
+
+  handleChangeSuburb(event){
+    this.setState({suburb: event.target.value})
+  }
+
+  handleChangeState(event){
+    this.setState({state: event.target.value})
+  }
+
+  handleChangePostCode(event){
+    this.setState({postCode: event.target.value})
+  }
+
+  handleChangeCountry(event){
+    this.setState({country: event.target.value})
+  }
+
   render() {
     return (
       <div className="row row-eq-height">
