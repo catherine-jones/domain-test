@@ -1,18 +1,6 @@
-// import Hcard from './Hcard';
 import React from 'react';
-// import style from '../styles/HcardForm.scss';
 
 class HcardForm extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  handleSubmit(event) {
-    console.log(this.state.value);
-    event.preventDefault();
-  }
 
   render() {
     return (
