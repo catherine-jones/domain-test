@@ -8,8 +8,8 @@ class Hcard extends React.Component {
           <div className="row">
             <div className="col-sm-9 col-xs-8">
               <h2 className="fn">
-                <span className="given-name">Sam</span>
-                <span className="family-name">Fairfax</span>
+                <span className="given-name" value={this.props.surname}></span>
+                <span className="family-name" value={this.props.givenName}></span>
               </h2>
             </div>
             <div className="col-sm-3 col-xs-4">
@@ -25,7 +25,7 @@ class Hcard extends React.Component {
               <span className="title">Email:</span>
             </div>
             <div className="col-sm-9 col-xs-8">
-              <span className="email">sam.fairfax@fairfax.com</span>
+              <span className="email" value={this.props.email}></span>
             </div>
           </div>
           <div className="underline row">
@@ -33,7 +33,7 @@ class Hcard extends React.Component {
               <span className="title">Phone:</span>
             </div>
             <div className="col-sm-9 col-xs-8">
-              <span className="phone">0987656736</span>
+              <span className="phone" value={this.props.phone}></span>
             </div>
           </div>
           <div className="adr">
@@ -42,13 +42,13 @@ class Hcard extends React.Component {
                 <span className="title">Address: </span>
               </div>
               <div className="col-sm-9 col-xs-8">
-                <span className="street-address">1 Darling Island road</span>
+                <span className="street-address" value={this.props.street}></span>
               </div>
             </div>
             <div className="underline row">
               <div className="offset-sm-3 col-sm-9 offset-xs-4 col-xs-8">
-                <span className="locality">Pyrmont </span>
-                <span className="region">NSW</span>
+                <span className="locality" value={this.props.suburb}></span>
+                <span className="region" value={this.props.state}></span>
               </div>
             </div>
             <div className="underline row">
@@ -56,14 +56,13 @@ class Hcard extends React.Component {
                 <span className="title">Post Code:</span>
               </div>
               <div className="col-sm-2 col-xs-8">
-                <span className="postal-code">2009</span>
+                <span className="postal-code" value={this.props.postCode}></span>
               </div>
-
               <div className="col-sm-3 col-xs-4">
                 <span className="title">Country:</span>
               </div>
               <div className="col-sm-4 col-xs-8">
-                <span className="country-name">Australia</span>
+                <span className="country-name" value={this.props.country}></span>
               </div>
             </div>
           </div>
