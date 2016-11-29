@@ -7,5 +7,3 @@ import style from '../styles/main.scss';
 
 ReactDOM.render(<ComponentContainer/>, document.getElementById('app'));
 
-ReactDOM.render(<HcardForm/>, document.getElementById('form-container'));
-ReactDOM.render(<Hcard/>, document.getElementById('card-container'));
