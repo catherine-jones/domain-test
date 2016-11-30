@@ -21,6 +21,14 @@
       @media(min-width: 992px){
         font-size: 2rem;
       }
+
+      span {
+        &:first-child {
+          &:after {
+            content: ' '
+          }
+        }
+      }
     }
   }
 
@@ -32,6 +40,16 @@
     top: 10px;
     border: 1px solid $border-colour;
     border-bottom: 2px solid $border-colour;
+  }
+
+  .second-address-row {
+    span {
+      &:first-child {
+        &:after {
+          content: ' '
+        }
+      }
+    }
   }
 
   .card-body {

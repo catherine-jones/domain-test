@@ -46,7 +46,7 @@ class Hcard extends React.Component {
               </div>
             </div>
             <div className="underline row">
-              <div className="offset-sm-3 col-sm-9 offset-xs-4 col-xs-8">
+              <div className="second-address-row offset-sm-3 col-sm-9 offset-xs-4 col-xs-8">
                 <span className="locality">{this.props.suburb}</span>
                 <span className="region">{this.props.state}</span>
               </div>
