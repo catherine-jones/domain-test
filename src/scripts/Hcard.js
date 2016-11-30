@@ -8,8 +8,8 @@ class Hcard extends React.Component {
           <div className="row">
             <div className="col-sm-9 col-xs-8">
               <h2 className="fn">
-                <span className="given-name" value={this.props.surname}></span>
-                <span className="family-name" value={this.props.givenName}></span>
+                <span className="given-name" value={this.props.givenName}>{this.props.givenName}</span>
+                <span className="family-name" value={this.props.surname}></span>
               </h2>
             </div>
             <div className="col-sm-3 col-xs-4">
@@ -39,7 +39,7 @@ class Hcard extends React.Component {
           <div className="adr">
             <div className="underline row">
               <div className="col-sm-3 col-xs-4">
-                <span className="title">Address: </span>
+                <span className="title">Address:</span>
               </div>
               <div className="col-sm-9 col-xs-8">
                 <span className="street-address" value={this.props.street}></span>

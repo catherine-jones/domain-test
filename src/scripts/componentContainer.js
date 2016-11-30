@@ -84,7 +84,7 @@ class ComponentContainer extends React.Component {
                 <h3>hcard preview</h3>
               </div>
               <div id="card-container" className="col-sm-12 ">
-                <Hcard/>
+                <Hcard givenName={this.state.givenName}/>
               </div>
             </div>
           </div>
