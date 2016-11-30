@@ -83,7 +83,18 @@ class ComponentContainer extends React.Component {
                 <h3>hcard preview</h3>
               </div>
               <div id="card-container" className="col-sm-12 ">
-                <Hcard givenName={this.state.givenName}/>
+                <Hcard
+                givenName={this.state.givenName}
+                surname={this.state.surname}
+                email={this.state.email}
+                phone={this.state.phone}
+                houseName={this.state.houseName}
+                street={this.state.street}
+                suburb={this.state.suburb}
+                state={this.state.state}
+                postCode={this.state.postCode}
+                country={this.state.country}
+                />
               </div>
             </div>
           </div>
