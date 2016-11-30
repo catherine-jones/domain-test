@@ -14,6 +14,7 @@ class ComponentContainer extends React.Component {
   }
 
   handleChangeGivenName(event){
+    console.log(this.state)
     this.setState({givenName: event.target.value})
   }
 
@@ -60,7 +61,19 @@ class ComponentContainer extends React.Component {
           </div>
           <div className="row">
             <div id="form-container" className="col-sm-12">
-              <HcardForm/>
+              <HcardForm
+              handleChangeGivenName={this.handleChangeGivenName.bind(this)}
+              handleChangeSurname={this.handleChangeGivenName.bind(this)}
+              handleChangeEmail={this.handleChangeEmail.bind(this)}
+              handleChangeGivenName={this.handleChangeGivenName.bind(this)}
+              handleChangePhone={this.handleChangePhone.bind(this)}
+              handleChangeHouseName={this.handleChangeHouseName.bind(this)}
+              handleChangeStreet={this.handleChangeStreet.bind(this)}
+              handleChangeSuburb={this.handleChangeSuburb.bind(this)}
+              handleChangeState={this.handleChangeState.bind(this)}
+              handleChangePostCode={this.handleChangePostCode.bind(this)}
+              handleChangeCountry={this.handleChangeCountry.bind(this)}
+              />
             </div>
           </div>
         </div>
