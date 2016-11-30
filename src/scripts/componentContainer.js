@@ -63,9 +63,8 @@ class ComponentContainer extends React.Component {
             <div id="form-container" className="col-sm-12">
               <HcardForm
               handleChangeGivenName={this.handleChangeGivenName.bind(this)}
-              handleChangeSurname={this.handleChangeGivenName.bind(this)}
+              handleChangeSurname={this.handleChangeSurname.bind(this)}
               handleChangeEmail={this.handleChangeEmail.bind(this)}
-              handleChangeGivenName={this.handleChangeGivenName.bind(this)}
               handleChangePhone={this.handleChangePhone.bind(this)}
               handleChangeHouseName={this.handleChangeHouseName.bind(this)}
               handleChangeStreet={this.handleChangeStreet.bind(this)}
