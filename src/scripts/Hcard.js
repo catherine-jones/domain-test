@@ -8,7 +8,7 @@ class Hcard extends React.Component {
           <div className="row">
             <div className="col-sm-9 col-xs-8">
               <h2 className="fn">
-                <span className="given-name" value={this.props.givenName}>{this.props.givenName}</span>
+                <span className="given-name">{this.props.givenName}</span>
                 <span className="family-name" value={this.props.surname}></span>
               </h2>
             </div>
