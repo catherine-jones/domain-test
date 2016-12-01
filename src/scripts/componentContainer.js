@@ -53,7 +53,7 @@ class ComponentContainer extends React.Component {
   render() {
     return (
       <div className="row row-eq-height">
-        <div className="col-sm-6 col-md-12 col-lg-6">
+        <div className="col-xs-12 col-sm-12 col-lg-6">
           <div className="row">
             <div className="col-sm-12">
               <h1>hCard Builder</h1>
@@ -76,7 +76,6 @@ class ComponentContainer extends React.Component {
             </div>
           </div>
         </div>
-        <div className="col-sm-6 col-md-12 col-lg-6 card-column">
           <div className="row flex-row">
             <div className="vertically-center">
               <div className="col-sm-12">
