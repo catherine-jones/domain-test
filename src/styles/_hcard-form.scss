@@ -30,10 +30,6 @@ form {
     margin-bottom: 0;
   }
 
-  .btn-primary input[type="file"] {
-    background-color: #627b8b;
-  }
-
   .btn-primary {
     font-size: 1rem;
     color: white;
@@ -59,13 +55,6 @@ form {
     top: 0;
     left: 0;
   }
-
-    &[type="submit"]{
-      background-color:#3498db;
-      border-bottom: 1px solid #2980b9;
-    }
-  }
-}
 
 .hidden-input {
   position: absolute;
