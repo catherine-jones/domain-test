@@ -3,11 +3,11 @@ form {
     font-size: 0.75rem;
     text-transform: uppercase;
     font-family: $sans-serif-font;
-    color: #2c3e50;
+    color: $vcard-heading-bg-colour;
   }
 
   h2 {
-    color: #b5bdc0;
+    color: $form-heading-colour;
     text-transform: uppercase;
     font-family: $sans-serif-font;
     font-size: 0.625rem;
@@ -23,7 +23,7 @@ form {
   }
 
   .form-control {
-    margin-bottom: 15px;
+    margin-bottom: $standard-margin;
   }
 
   .form-group {
@@ -35,30 +35,32 @@ form {
     color: white;
     width: 100%;
     border: none;
-    margin-bottom: 15px;
+    margin-bottom: $standard-margin;
 
-  &.avatar {
-    background-color: #627b8b;
-    border-bottom: 1px solid #3f515d;
+    &.avatar {
+      background-color: $secodary-button-colour;
+      border-bottom: 1px solid $primary-button-colour;
+    }
+
+    .file-upload-btn {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .avatar {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 
-  .file-upload-btn {
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-
-  .avatar {
-    width: 100%;
-    height: 100%;
+  .hidden-input {
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
   }
-
-.hidden-input {
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  left: 0;
 }
