@@ -76,6 +76,7 @@ class ComponentContainer extends React.Component {
             </div>
           </div>
         </div>
+        <div className="col-xs-12 col-sm-12 col-lg-6 card-column">
           <div className="row flex-row">
             <div className="vertically-center">
               <div className="col-sm-12">
