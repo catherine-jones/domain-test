@@ -7,10 +7,10 @@ class Hcard extends React.Component {
         <div className="container card-heading-group">
           <div className="row">
             <div className="col-sm-9 col-xs-8">
-              <h2 className="fn">
+              <span className="fn name-heading">
                 <span className="given-name">{this.props.givenName}</span>
                 <span className="family-name">{this.props.surname}</span>
-              </h2>
+              </span>
             </div>
             <div className="col-sm-3 col-xs-4">
               <div className="photo">
