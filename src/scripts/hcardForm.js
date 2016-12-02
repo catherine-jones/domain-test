@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageUpload from './imageUpload';
 
 class HcardForm extends React.Component {
   constructor(props){
