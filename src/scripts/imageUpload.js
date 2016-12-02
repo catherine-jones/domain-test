@@ -37,7 +37,7 @@ class ImageUpload extends React.Component {
 
     return (
       <span className="file-upload-btn">
-        <span className="btn btn-primary avatar">avatar</span>
+        <span className="btn btn-primary avatar">Upload Avatar</span>
         <input className="btn btn-primary hidden-input" type="file" onChange={(e)=>this._handleImageChange(e)} />
       </span>
     )
