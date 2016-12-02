@@ -46,9 +46,14 @@
     span {
       &:first-child {
         &:after {
-          content: ' '
+          content: ' ';
         }
       }
+    }
+  }
+  .house-name {
+    &:after {
+      content: ' ';
     }
   }
 

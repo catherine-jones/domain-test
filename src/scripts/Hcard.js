@@ -42,6 +42,7 @@ class Hcard extends React.Component {
                 <span className="title">Address:</span>
               </div>
               <div className="col-sm-9 col-xs-8">
+                <span className="house-name">{this.props.houseName}</span>
                 <span className="street-address">{this.props.street}</span>
               </div>
             </div>
