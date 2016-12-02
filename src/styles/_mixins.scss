@@ -1,0 +1,5 @@
+@mixin size-and-position($size, $position) {
+  width: $size;
+  height: $size;
+  position: $position;
+}
