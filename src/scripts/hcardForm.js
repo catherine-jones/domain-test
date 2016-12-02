@@ -9,7 +9,7 @@ class HcardForm extends React.Component {
 
   render() {
     return (
-      <form>
+      <form onSubmit={(e)=>this._handleSubmit(e)}>
         <h2>Personal Details</h2>
         <hr/>
         <div className="form-group row">
@@ -68,7 +68,7 @@ class HcardForm extends React.Component {
 
         <div className="form-group row">
           <div className="col-sm-6">
-            <button type="file" className="btn btn-primary avatar">Upload Avatar</button>
+            <ImageUpload/>
           </div>
           <div className="col-sm-6">
             <button type="submit" className="btn btn-primary">Create Hcard</button>
